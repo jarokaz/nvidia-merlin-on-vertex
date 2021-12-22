@@ -1,3 +1,4 @@
+```
 docker run -it --rm --gpus all --cap-add SYS_NICE \
 -e AIP_MODEL_DIR='/models/t1/model' \
 -e AIP_CHECKPOINT_DIR='/models/t1/checkpoints' \
@@ -20,5 +21,5 @@ python -m task \
 --eval_interval=500 \
 --display_interval=200 \
 --gpus='[[0,1]]'
-
+```
 
